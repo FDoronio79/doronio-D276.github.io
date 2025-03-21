@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filamer Doronio - Résumé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Filamer Doronio Résumé</h1>
+    <nav>
+      <ul>
+        <li><a href="cover_letter.html">Cover Letter</a></li>
+        <li><a href="career_goals.html">Career Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <article>
+        <h2>Professional Summary</h2>
+        <h3>Experience</h3>
+        <ul>
+          <li>Web Developer</li>
+            <p>2023 - Present</p>
+          <li>Full Stack Engineer</li>
+            <p>2022 - 2023</p>
+          <li>Business Analyst</li>
+            <p>2020 - 2022</p>
+        </ul>
+        <h4>Education</h4>
+        <p>
+          I am a dedicated professional with over <span class="highlight">3 years</span> of experience in web development.<br>
+          My expertise includes full-stack development, project management, and business analysis.
+        </p>
+        <hr>
+        <div id="currentDate">Current Date: Not Set</div>
+        <p>Visit my <a href="https://www.filamerdoronio.dev" target="_blank">Portfolio Website</a> for more details.</p>
+        <ul>
+          <li>HTML, CSS, and JavaScript expertise</li>
+          <li>Experience with modern frameworks</li>
+          <li>Proven leadership and teamwork skills</li>
+        </ul>
+        <table border="1">
+          <caption>Work Experience Overview</caption>
+          <tr>
+            <th>Year</th>
+            <th>Company</th>
+            <th>Role</th>
+            <th>Highlights</th>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>Unisys</td>
+            <td>Business Analyst</td>
+            <td>Create design documents for state project</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>Hack Reactor</td>
+            <td>Full Stack Developer/TA</td>
+            <td>Converted app from flask to django framework. Provided expert level aid to students.</td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>Thyrv</td>
+            <td>Web Developer</td>
+            <td>Maintain ownership of portion of Listings Management.</td>
+          </tr>
+        </table>
+        <p>
+          <strong>Note:</strong> I like food.
+        </p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Filamer Doronio. All rights reserved.</p>
+  </footer>
+  <script>
+    function populateDate() {
+      const dateDiv = document.getElementById('currentDate');
+      const currentDate = new Date();
+      dateDiv.innerHTML = "Current Date: " + currentDate.toDateString();
+    }
+    populateDate();
+    console.log('Not so secret, secret message');
+  </script>
+</body>
+</html>
